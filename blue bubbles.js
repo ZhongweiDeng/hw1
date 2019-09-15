@@ -27,7 +27,7 @@ function draw() {
     }
 
     ellipse(bubble.x, bubble.y, bubble.radius * 2)
-    bubble.x += random(-10, 10)
-    bubble.y += random(-10, 10)
+    bubble.x += random(-1, 1)
+    bubble.y += random(-1, 1)
   }
  }
